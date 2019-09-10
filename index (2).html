@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+<!--<![endif]-->
+<html lang="en">
+<!--<![endif]-->
+
+<head>
+    <title>My Resume</title>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A beautiful Jekyll theme for creating resume">
+
+    <!-- <link rel="shortcut icon" href="favicon.ico"> -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css">
+
+    <link id="theme-style" rel="stylesheet" href="main.css">
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style type="text/css">
+        @CHARSET "ISO-8859-1";
+        .OpenVideo {
+            display: none !important;
+            visibility: hidden !important;
+        }
+        
+        .ov-popupFrame,
+        .ov-theaterMode {
+            position: fixed !important;
+            top: 0px !important;
+            left: 0px !important;
+            bottom: 0px !important;
+            right: 0px !important;
+            width: 100% !important;
+            height: 100% !important;
+            border: none !important;
+            margin: 0 !important;
+            padding: 0 !important;
+            overflow: hidden !important;
+            z-index: 2147483646 !important;
+        }
+        
+        .ov-theaterMode {
+            background: rgba(0, 0, 0, 0.95) !important;
+            pointer-events: none;
+            transition: opacity 0.3s;
+            opacity: 0;
+            display: block;
+            cursor: default;
+        }
+        
+        .ov-iframe-theaterMode {
+            position: fixed !important;
+            width: 70vw !important;
+            height: calc(( 9/ 16)*70vw) !important;
+            top: calc((100vh - ( 9/ 16)*70vw)/2) !important;
+            left: calc((100vw - 70vw)/2) !important;
+            z-index: 2147483646 !important;
+        }
+        
+        .ov-popupFrame-closed {
+            visibility: hidden;
+        }
+        
+        .ov-openFrame {
+            color: white;
+            padding: 12px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+            outline: none;
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            z-index: 2147483647;
+            background-color: #8dc73f;
+            opacity: 0.6;
+        }
+        
+        .ov-openFrame:hover {
+            opacity: 1;
+        }
+        
+        .ov-theater-mode {
+            position: fixed !important;
+            left: 20vw !important;
+            top: 20vh !important;
+            width: 50vw !important;
+            height: calc(9/16*50vw) !important;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="sidebar-wrapper">
+            <div class="profile-container">
+                <img class="avatar" src="profile.jpg" alt="profile picture">
+                <h1 class="name">Youness Kreker</h1>
+                <h3 class="tagline">Full Stack Developer</h3>
+            </div>
+            <div class="contact-container container-block">
+                <ul class="list-unstyled contact-list">
+                    <li class="adress"><i class="fa fa-address-card"></i>
+                        <a href="#" target="_blank"> Hay Tarik, Rue 39, NR 47 SB Casablanca</a>
+                    </li>
+
+                    <li class="email"><i class="fas fa-envelope"></i>
+                        <a href="mailto:younesskreker@gmail.com">younesskreker@gmail.com</a>
+                    </li>
+                    <li class="phone"><i class="fas fa-phone"></i>
+                        <a href="tel:0656038746">06 - 56 - 03 - 87 - 46</a>
+                    </li>
+
+                    <li class="linkedin"><i class="fab fa-linkedin"></i>
+                        <a href="https://www.linkedin.com/in/youness-kreker-9a82a4148/" target="_blank">  /in/youness-kreker-9a82a4148/</a>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="education-container container-block">
+                <h2 class="container-block-title">
+Formations
+</h2>
+                <div class="item">
+                    <h4 class="degree">Master Miage (Methodes informatiques appliquees a la gestion des entreprises)</h4>
+                    <h5 class="meta">FST UHA Mulhouse - Délocalisé en IGA</h5>
+                    <div class="time">2017 - 2019</div>
+                </div>
+                <div class="item">
+                    <h4 class="degree">License Miage</h4>
+                    <h5 class="meta">FST UHA Mulhouse - Délocalisé en IGA</h5>
+                    <div class="time">2016 - 2017</div>
+                </div>
+                <div class="item">
+                    <h4 class="degree">Technicien Spécialisé en developpement informatique</h4>
+                    <h5 class="meta">ISGI - Centre Philips</h5>
+                    <div class="time">2014 - 2016</div>
+                </div>
+            </div>
+            <div class="languages-container container-block">
+                <h2 class="container-block-title">
+Langues
+</h2>
+                <ul class="list-unstyled interests-list">
+                    <li>
+                        Francais
+                        <span class="lang-desc">(Parlé et écrit)</span>
+                    </li>
+                    <li>
+                        Anglais
+                        <span class="lang-desc">(Parlé et écrit)</span>
+                    </li>
+                    <li>
+                        Arabe
+                        <span class="lang-desc">(Maternelle)</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="interests-container container-block">
+                <h2 class="container-block-title">
+Loisirs
+</h2>
+                <ul class="list-unstyled interests-list">
+                    <li>Jeu Vidéo de réflexion</li>
+                    <li>Course a pied</li>
+                    <li>Lecture</li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="main-wrapper">
+
+            <section class="section experiences-section">
+                <h2 class="section-title">
+<span class="fa-stack fa-xs">
+<i class="fas fa-circle fa-stack-2x"></i>
+<i class="fas fa-briefcase fa-stack-1x fa-inverse"></i>
+</span>
+Stages
+</h2>
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">Stagiaire développeur front-end</h3>
+                            <div class="time">2019 - 6 mois</div>
+                        </div>
+                        <div class="company">Geo.COM</div>
+                    </div>
+                    <div class="details">
+                        <p>La création d'un front-end pour la platforme utilisée par Geo.COM pour offrir des services de géolocalisation.</p>
+                        <ul>
+                            <li>Utilisation de leaflet.js et openlayers pour la création des cartes interactives.</li>
+                            <li>utilisation de HTML &amp; CSS &amp; bootstrap pour la création d'un front-end mobile.</li>
+                            <li>Création d'un plugin qui retourne les instructions pour aller d'un point A vers B.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">Stagiaire IT support</h3>
+                            <div class="time">2018 - 2 mois</div>
+                        </div>
+                        <div class="company">Le tribunal de commerce</div>
+                    </div>
+                    <div class="details">
+                        <p>Résolution des problemes et mise en place d'un script pour le sauvegard des données .</p>
+                        <ul>
+                            <li>Gestion des pannes logiciels.</li>
+                            <li>Sauvgarde de données.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">Stagiaire - Full stack Développer</h3>
+                            <div class="time">2017 - 3 mois</div>
+                        </div>
+                        <div class="company">LBA Group</div>
+                    </div>
+                    <div class="details">
+                        <p>La mise en place d'un site qui permet la création et l'édition des articles basée sur https://lesclesdelabanque.com/.</p>
+                        <ul>
+                            <li>Recueil d'information.</li>
+                            <li>Etude d'existant et des besoins.</li>
+                            <li>Rédaction d'un cahier de charge.</li>
+                            <li>Conception et implémentation du solution avec PHP, mysql et bootstrap.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">Stagiaire</h3>
+                            <div class="time">2016 - 1 mois</div>
+                        </div>
+                        <div class="company">Diffazur</div>
+                    </div>
+                    <div class="details">
+                        <p>La mise en place d'un site e-commerce avec ASP.net sous l'architecture MVC.</p>
+                    </div>
+                </div>
+            </section>
+            <section class="section projects-section">
+                <h2 class="section-title">
+<span class="fa-stack fa-xs">
+<i class="fas fa-circle fa-stack-2x"></i>
+<i class="fas fa-archive fa-stack-1x fa-inverse"></i>
+</span>
+Les projets personnels
+</h2>
+
+                <div class="item">
+                    <span class="project-title">
+<a href="#hook" target="_blank">Youtube Clone</a>
+</span> - <span class="project-tagline">un clone de youtube crée par ReactJS, Material-ui/core et google cloud "youtube API".</span>
+                </div>
+                <div class="item">
+                    <span class="project-title">
+<a href="#" target="_blank">Reseau</a>
+</span> - <span class="project-tagline">un réseau social développé par : ReactJS,Firebase, Redux et Express.</span>
+                </div>
+
+                <div class="item">
+                    <span class="project-title">
+<a href="#" target="_blank">compagnie aérienne</a>
+</span> - <span class="project-tagline">une application java 8 qui permet la gestion des vols.</span>
+                </div>
+            </section>
+
+            <section class="skills-section section">
+                <h2 class="section-title">
+<span class="fa-stack fa-xs">
+<i class="fas fa-circle fa-stack-2x"></i>
+<i class="fas fa-wrench fa-stack-1x fa-inverse"></i>
+</span>
+Compétences Techniques
+</h2>
+                <div class="skillset">
+                    <div class="item">
+                        <h3 class="level-title">Javascript &amp; jQuery</h3>
+                        <div class="level-bar">
+                            <div class="level-bar-inner" data-level="98%" style="width: 98%;">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <h3 class="level-title">PHP &amp; mysql</h3>
+                        <div class="level-bar">
+                            <div class="level-bar-inner" data-level="98%" style="width: 98%;">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <h3 class="level-title">ReactJS</h3>
+                        <div class="level-bar">
+                            <div class="level-bar-inner" data-level="98%" style="width: 98%;">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <h3 class="level-title">HTML5 &amp; CSS &amp; Bootstrap</h3>
+                        <div class="level-bar">
+                            <div class="level-bar-inner" data-level="95%" style="width: 95%;">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <h3 class="level-title">Java &amp; JavaEE </h3>
+                        <div class="level-bar">
+                            <div class="level-bar-inner" data-level="70%" style="width: 60%;">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <h3 class="level-title"> C &amp; C++</h3>
+                        <div class="level-bar">
+                            <div class="level-bar-inner" data-level="70%" style="width: 60%;">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <h3 class="level-title">Asp.net &amp; C#</h3>
+                        <div class="level-bar">
+                            <div class="level-bar-inner" data-level="70%" style="width: 60%;">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <h3 class="level-title">SQL Server &amp; Oracle BD</h3>
+                        <div class="level-bar">
+                            <div class="level-bar-inner" data-level="70%" style="width: 60%;">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <h3 class="level-title">Gestion de projets informatiques</h3>
+                        <div class="level-bar">
+                            <div class="level-bar-inner" data-level="60%" style="width: 60%;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="text-center">
+
+            <!-- <small class="copyright">Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a> -->
+            <!-- </small> -->
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+    <!-- <script type="text/javascript" src="/online-cv/assets/js/main.js"></script> -->
+
+
+</body>
+
+</html>
